@@ -8,3 +8,6 @@
 
 # Books
 - [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/chapter-r-basics)
+
+# Repos
+- [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
