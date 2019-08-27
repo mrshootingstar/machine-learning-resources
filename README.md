@@ -17,3 +17,6 @@
 
 - [lucid](https://github.com/tensorflow/lucid)
     - Lucid is a collection of infrastructure and tools for research in neural network interpretability.
+
+# Twitter
+- [Gabriel Goh](https://twitter.com/gabeeegoooh)
