@@ -14,3 +14,6 @@
 
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
+
+- [lucid](https://github.com/tensorflow/lucid)
+    - Lucid is a collection of infrastructure and tools for research in neural network interpretability.
