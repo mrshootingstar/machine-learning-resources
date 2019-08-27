@@ -20,3 +20,6 @@
 
 # Twitter
 - [Gabriel Goh](https://twitter.com/gabeeegoooh)
+
+# Datasets
+- [Quick Draw](https://github.com/googlecreativelab/quickdraw-dataset)
