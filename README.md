@@ -1,6 +1,7 @@
 "# machine-learning-resources" 
 
 # Articles
+- [Vanial LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - http://colah.github.io/
     - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
@@ -13,6 +14,8 @@
 
 - [R for Data Science](https://r4ds.had.co.nz/)
 ![foo](http://amzn.to/2aHLAQ1)
+
+- [Deep Learning](https://github.com/janishar/mit-deep-learning-book-pdf)
 
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
