@@ -1,6 +1,7 @@
 "# machine-learning-resources" 
 
 # Articles
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Vanial LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - http://colah.github.io/
     - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
