@@ -18,6 +18,8 @@
 
 - [Deep Learning](https://github.com/janishar/mit-deep-learning-book-pdf)
 
+# Courses
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
 
