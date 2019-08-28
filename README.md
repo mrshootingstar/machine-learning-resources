@@ -23,7 +23,7 @@
 
 - [lucid](https://github.com/tensorflow/lucid)
     - Lucid is a collection of infrastructure and tools for research in neural network interpretability.
-
+- [oxford-cs-deepnlp-2017](https://github.com/oxford-cs-deepnlp-2017/lectures)
 # Twitter
 - [Gabriel Goh](https://twitter.com/gabeeegoooh)
 
