@@ -23,3 +23,6 @@
 
 # Datasets
 - [Quick Draw](https://github.com/googlecreativelab/quickdraw-dataset)
+
+# Videos
+[MIT 6.S094: Recurrent Neural Networks for Steering Through Time](https://www.youtube.com/watch?v=nFTQ7kHQWtc)
