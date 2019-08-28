@@ -4,6 +4,7 @@
 - http://colah.github.io/
     - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
+- [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - [LSTM](https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/)
 
 # Books
