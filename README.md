@@ -1,11 +1,11 @@
-"# machine-learning-resources" 
+"Machine Learning Resources" 
 
 # Articles
 - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-- [Vanial LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
+- [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - http://colah.github.io/
     - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-
+- [An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/)
 - [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - [LSTM](https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/)
 
