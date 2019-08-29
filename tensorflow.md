@@ -1,0 +1,1 @@
+- [Introduction to LSTMs with TensorFlow](https://www.oreilly.com/ideas/introduction-to-lstms-with-tensorflow)
