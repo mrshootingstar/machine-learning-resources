@@ -44,3 +44,7 @@
 # Websites
 - [distill](https://distill.pub/)
 - [skymnd A.I. Wiki](https://skymind.ai/wiki/)
+
+
+# Other directories
+- [Awesome Deep Learning Awesome](https://github.com/ChristosChristofidis/awesome-deep-learning)
