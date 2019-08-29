@@ -20,6 +20,7 @@
 
 # Courses
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
+- [6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
 
@@ -36,3 +37,7 @@
 - [MIT 6.S094: Recurrent Neural Networks for Steering Through Time](https://www.youtube.com/watch?v=nFTQ7kHQWtc)
 
 -  [Arxiv Insights](https://www.youtube.com/channel/UCNIkB2IeJ-6AmZv7bQ1oBYg)
+
+
+# Websites
+- [distill](https://distill.pub/)
