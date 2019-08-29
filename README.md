@@ -23,6 +23,7 @@
 # Courses
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 - [6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
+- [Geoffrey Hinton's Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks/home/welcome)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
 
