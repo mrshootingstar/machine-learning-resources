@@ -1,7 +1,12 @@
 # src: https://kldavenport.com/pure-python-decision-trees/#our-data
 # originally from Programming Collective Intelligence: Building Smart Web 2.0 Applications 
 # by Toby Segaran
-# Adopted to work with Python 3.
+# amazon link: 
+# https://www.amazon.com/Programming-Collective-Intelligence-Building-Applications/dp/0596529325
+# Slight adoption to the code for Python 3.
+
+import logging
+logging.basicConfig(level=logging.DEBUG, format='%(message)s')
 
 my_data=[['slashdot','USA','yes',18,'None'],
         ['google','France','yes',23,'Premium'],
@@ -24,10 +29,11 @@ class decisionnode:
     def __init__(self,col=-1,value=None,results=None,tb=None,fb=None):
         self.col=col # column index of criteria being tested
         self.value=value # vlaue necessary to get a true result
-        self.results=results # dict of results for a branch, None for everything except endpoints
         self.tb=tb # true decision nodes 
         self.fb=fb # false decision nodes
 
+        # only if leaf node -- no split could have a positive gain
+        self.results=results # dict of results for a branch, None for everything except endpoints
 
 
 def divideset(rows,column,value):
@@ -82,27 +88,33 @@ def entropy(rows):
 def buildtree(rows, scorefun=entropy):
     if len(rows) == 0: return decisionnode()
     current_score = scorefun(rows)
-
+    logging.info(f"\n\n>>>Building New Tree\n>>>Current Score: {current_score:0.6f}")
     best_gain = 0.0
     best_criteria = None
     best_sets = None
 
     column_count = len(rows[0]) - 1 # last column is result
-    for col in range(0, column_count):
+    logging.info(f"Number of features: {column_count}")
+    for col in range(column_count):
+        logging.info(f"currently considering column {col+1}")
         # find different values in this column
         column_values = set([row[col] for row in rows])
-
+        logging.info(f"... which contains {column_values}")
+        
         # for each possible value, try to divide on that value
         for value in column_values:
+            
             set1, set2 = divideset(rows, col, value)
 
             # Information gain
             p = float(len(set1)) / len(rows)
             gain = current_score - p*scorefun(set1) - (1-p)*scorefun(set2)
+            logging.info(f"splitting on {value} has a gain of {gain:0.6f}")
             if gain > best_gain and len(set1) > 0 and len(set2) > 0:
                 best_gain = gain
                 best_criteria = (col, value)
                 best_sets = (set1, set2)
+                logging.info(f"\n*best gain* => column {col+1} - split on {value}\n")
 
     if best_gain > 0:
         trueBranch = buildtree(best_sets[0])
