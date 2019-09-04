@@ -1,0 +1,9 @@
+- Explaining the contribution of individual features to the output of tree ensemble models: SHapley Additive exPlanations, or SHAP values
+- Coordinate descent is just like gradient descent, exceptthat you can’t move along the gradient, you have to choose just one coordinateat a time to move along.
+- Conditional Random Fields (2001): a frame-work  for  building  probabilistic  models  to  seg-ment and label sequence data.
+- p-hacking AKA data dredging: Performing many statistical tests on the data and only paying attention to those that come back with significatnt results.
+    - at a confidence level of 0.05, we expect to find one positive result out of 20 tests.
+    - remedies:
+        - Bonferroni Correction: You are running 3 tests, multiply alpha by 1/3
+        - Hold-out Tests: heavily used in machine learning (cross validation)
+        - Investigation Pre-registration: Used in academic fields

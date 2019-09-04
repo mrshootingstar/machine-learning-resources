@@ -1,6 +1,9 @@
 "Machine Learning Resources" 
 
 # Articles
+- [50 years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+- [Ten Simple Rules for Better Figures](https://hal.inria.fr/hal-01063732/document)
+- [The Foundations of Algorithmic Bias](http://approximatelycorrect.com/2016/11/07/the-foundations-of-algorithmic-bias/)
 - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - http://colah.github.io/
@@ -53,7 +56,7 @@
         - Regression and Classification
         - Optimizes a loss function (in contrast to AdaBoost)
         - ensemble of weak models
-        - Next Model = Previous Model + h(x)
+        - Next Model = Previous Model + learning_rate * some_multiplier * h(x) -- learning rate is to apply **shrinkage**
         - The goal is to make Next Model = Previous Model + h(x) = actual value, hence, h(x)  is fit on the residual of (y-Previous Model)
         - Example Algorithms:
             - Gradient Tree Boosting:
@@ -61,11 +64,19 @@
                 - Week Trees built non randomly.
                 - Prediction is fast and memory efficient
                 - Learning rate parameter (RF don't have it.) Higher LR: more emphasis on correcting the previous tree (more complex) and vice versa
-                - `clf = GradientBoostingClassifier().fit(X_train, y_train)`
+                - `clf = GradientBoostingClassifier(learning_rate=0.01, max_depth=2).fit(X_train, y_train)`
+                - To avoid overfitting reduce max depth and learning rate and n_estimators
+                - No feature scaling needed
+                - Hard to interpret; training computationally expensive; tunning hard; bad for text classification and other problems with high dimensional sparse features
     - Fast scalable GBM:
         - XGBoost
         - LightGBM
         - CatBoost
+
+    - Naive Bayes Classifiers
+    - Random Forests
+    - Manifold Learning
+    - 
 # Books
 - [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/chapter-r-basics)
 
@@ -102,5 +113,5 @@
 
 
 # Other directories
-- [Awesome Deep Learning Awesome](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - [Data Science Learning Directory](www.datasciguide.com/contenttype/book/)
