@@ -56,7 +56,12 @@
         - Next Model = Previous Model + h(x)
         - The goal is to make Next Model = Previous Model + h(x) = actual value, hence, h(x)  is fit on the residual of (y-Previous Model)
         - Example Algorithms:
-            - Gradient Tree Boosting
+            - Gradient Tree Boosting:
+                - Sequential built of trees (unlike random forests)
+                - Week Trees built non randomly.
+                - Prediction is fast and memory efficient
+                - Learning rate parameter (RF don't have it.) Higher LR: more emphasis on correcting the previous tree (more complex) and vice versa
+                - `clf = GradientBoostingClassifier().fit(X_train, y_train)`
     - Fast scalable GBM:
         - XGBoost
         - LightGBM
