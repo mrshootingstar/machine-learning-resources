@@ -18,6 +18,18 @@
     - [Google AI Blog: Transformer: A Novel Neural Network Architecture for Language Understanding ](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
     - [Jay Alammar: The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
     - [The Annotated Transformer - Python Code](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+
+
+- Recommender Systems
+    - Collaborative Filtering
+    - Content Based
+    - Social Recommenders
+
+- Boosting Methods
+    - Adaboost
+        - [A Step by Step Adaboost Example](https://sefiks.com/2018/11/02/a-step-by-step-adaboost-example/):  With numerical examples and python code
+    - Gradient Boosting
+    - xGBoost
 # Books
 - [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/chapter-r-basics)
 
