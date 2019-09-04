@@ -27,6 +27,7 @@ my_data=[['slashdot','USA','yes',18,'None'],
 
 class decisionnode:
     def __init__(self,col=-1,value=None,results=None,tb=None,fb=None):
+        # If Not a leaf node
         self.col=col # column index of criteria being tested
         self.value=value # vlaue necessary to get a true result
         self.tb=tb # true decision nodes 
