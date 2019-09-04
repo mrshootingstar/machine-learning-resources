@@ -4,6 +4,7 @@
 - [50 years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - [Ten Simple Rules for Better Figures](https://hal.inria.fr/hal-01063732/document)
 - [The Foundations of Algorithmic Bias](http://approximatelycorrect.com/2016/11/07/the-foundations-of-algorithmic-bias/)
+- [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 - [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - http://colah.github.io/
@@ -12,8 +13,9 @@
 - [Vanilla LSTM with numpy](https://blog.varunajayasiri.com/numpy_lstm.html)
 - [LSTM](https://machinelearningmastery.com/how-to-develop-lstm-models-for-multi-step-time-series-forecasting-of-household-power-consumption/)
 
--[MIT Deep Learning Basics: Introduction and Overview with TensorFlow](https://medium.com/tensorflow/mit-deep-learning-basics-introduction-and-overview-with-tensorflow-355bcd26baf0)
+- [MIT Deep Learning Basics: Introduction and Overview with TensorFlow](https://medium.com/tensorflow/mit-deep-learning-basics-introduction-and-overview-with-tensorflow-355bcd26baf0)
 
+- Deep Learning in a nutshell [[part 1](https://devblogs.nvidia.com/deep-learning-nutshell-core-concepts/)][[part 2](https://devblogs.nvidia.com/deep-learning-nutshell-history-training/)][[part 3](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-sequence-learning/)][[part 4](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-reinforcement-learning/)]
 - [Neural Machine Translation (seq2seq) Tutorial](https://github.com/tensorflow/nmt#background-on-the-attention-mechanism)
 
 - Attention:
@@ -89,6 +91,7 @@
 - [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/)
 - [6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
 - [Geoffrey Hinton's Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks/home/welcome)
+- [Data Visualization](http://shancarter.github.io/ucb-dataviz-fall-2013/)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
 
@@ -110,7 +113,9 @@
 # Websites
 - [distill](https://distill.pub/)
 - [skymind A.I. Wiki](https://skymind.ai/wiki/)
-
+- [Tensorflow Playground](https://playground.tensorflow.org)
+- [Shan Carter's website](http://shancarter.com/)
+- [Kevin Quealy's website](http://kpq.github.io/)
 
 # Other directories
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
