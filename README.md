@@ -20,11 +20,12 @@
     - [The Annotated Transformer - Python Code](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
 
 
+
 - Recommender Systems
     - Collaborative Filtering
     - Content Based
     - Social Recommenders
-
+- Bagging (Bootstrap Aggregating)
 - Boosting Methods
     - Adaboost AKA Adaptive Boosting:
         - Types:
@@ -42,10 +43,24 @@
                 2. compute the classifier's weight a_m = log( (1-e_m)/e_m )
                 3. w_i <- w_i * exp(a_m * e_m)
             3. FINAL CLASSIFIER = H(x) = sign( sum(a_m x h_m(x) ) )
-
+        - Caveats:
+            - weak learner too complex -> overfitting
+            - weak learner too weak -> underfitting
+            - susceptible to noise
+        - can be viewed as a coordinate based gradient descent algorithm
         - [A Step by Step Adaboost Example](https://sefiks.com/2018/11/02/a-step-by-step-adaboost-example/):  With numerical examples and python code
-    - Gradient Boosting
-    - xGBoost
+    - Gradient Boosting:
+        - Regression and Classification
+        - Optimizes a loss function (in contrast to AdaBoost)
+        - ensemble of weak models
+        - Next Model = Previous Model + h(x)
+        - The goal is to make Next Model = Previous Model + h(x) = actual value, hence, h(x)  is fit on the residual of (y-Previous Model)
+        - Example Algorithms:
+            - Gradient Tree Boosting
+    - Fast scalable GBM:
+        - XGBoost
+        - LightGBM
+        - CatBoost
 # Books
 - [R Graphics Cookbook, 2nd Edition](https://r-graphics.org/chapter-r-basics)
 
