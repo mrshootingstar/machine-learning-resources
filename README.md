@@ -38,9 +38,9 @@
         - Steps:
             1. Initialize sample weights to be 1/N
             2. Fit m classifier h_m on training data weighted by w_i
-                1. compute the classifier's error e_m
+                1. compute the classifier's error e_m = sum( w_i * (predicted - actual) ) / sum(w_i)
                 2. compute the classifier's weight a_m = log( (1-e_m)/e_m )
-                3. w_i <- w_i * exp(a_m)
+                3. w_i <- w_i * exp(a_m * e_m)
             3. FINAL CLASSIFIER = H(x) = sign( sum(a_m x h_m(x) ) )
 
         - [A Step by Step Adaboost Example](https://sefiks.com/2018/11/02/a-step-by-step-adaboost-example/):  With numerical examples and python code
