@@ -7,3 +7,5 @@
         - Bonferroni Correction: You are running 3 tests, multiply alpha by 1/3
         - Hold-out Tests: heavily used in machine learning (cross validation)
         - Investigation Pre-registration: Used in academic fields
+
+- Hyperparameter tuning based on a sample of the data is a bad [There are people who disagree] idea because hyper parameters are depended on the size of the data. Once the hyper parameters are optimized, train a new model using the whole dataset you have to use for unforeseen data points. Some poeple say you can use a algorithm that supports multifidelity evaluations to find an estimate of your optimized hyperparameter from a subset of the data.

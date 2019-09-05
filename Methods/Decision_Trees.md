@@ -8,7 +8,7 @@
 - A split is called `informative` if it does an excellent job at splitting one class from the others. Example for `informative split` in the `iris` data set is 
     - if `petal length` <= 2.35 cm then it is `setosa`, where a single measurement is sufficient to create a homogenious node.
 - `Information Gain`
-- `Pure lean nodes`
+- `Pure leaf nodes`
 - For `regression` problems the target value would be the mean value of the data points in that leaf node.
 - Decision Trees tend to overfit. Strategies to prevent that are:
     - Pre-prunnig: Stop the growth early (use `max_depth` or `max_leaf_node` or `min_sample_leaf`)

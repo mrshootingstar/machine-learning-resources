@@ -14,12 +14,15 @@ And returning to the original space we will get the boundary that is non linear:
 
 <img src="../img/original-space-kernel-svm.png"/>
 
-**Kernel** is a similiaryt measure.
+**Kernel** is a **similiaryt** measure. Should be **symmetric**. Read on **Gram Matrix**.
+-[Properties of Kernels](https://people.eecs.berkeley.edu/~jordan/kernels/0521813972c03_p47-84.pdf)
 
 ## Different Kernels:
 - [RBF](https://en.wikipedia.org/wiki/Radial_basis_function_kernel) (Radial Basis Function Kernel): hyperparameter is gamma, which determines the distance for points to be considered similar
 - <img src="../img/rbf-gamma.png"/>
 - Polynomial has a hypter parameters called degree
+- Gaussian kernels
+- Sigmoid Kernel/Tanh
 
 
 ## Kernel Trick
