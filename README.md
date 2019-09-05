@@ -116,6 +116,7 @@
 - [Tensorflow Playground](https://playground.tensorflow.org)
 - [Shan Carter's website](http://shancarter.com/)
 - [Kevin Quealy's website](http://kpq.github.io/)
+- [Pandas Trick by Kevin Markham](https://www.dataschool.io/python-pandas-tips-and-tricks/)
 
 # Other directories
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
