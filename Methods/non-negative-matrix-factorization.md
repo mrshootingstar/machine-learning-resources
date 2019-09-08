@@ -33,4 +33,12 @@ def nmf(X, com=3):
         cost = norm(X - W.dot(H))
         cost_path.append(cost)
     return W, H, cost_path
+
+res = nmf(X, 5)
+(W, H, cost_path) = res
+X_reconstructed = W.dot(H)
+
+assert np.allclose(X,X_reconstructed, rtol=tol)
+X_reconstructed
+
 ```
