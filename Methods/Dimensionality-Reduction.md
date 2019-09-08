@@ -1,5 +1,8 @@
 ## PCA
 - unsupervised
+- variations:
+    - Sparse PCA
+    - Kernel PCA
 - make sure data is standardized
 - since unsupervised, no need to split into train/test
 - an application of PCA would be to reduce dimensionality before the data is fed to a supervised method.
