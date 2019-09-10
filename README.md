@@ -121,3 +121,7 @@
 # Other directories
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - [Data Science Learning Directory](www.datasciguide.com/contenttype/book/)
+
+# Checklist
+- [How to Use a Machine Learning Checklist to Get Accurate Predictions, Reliably](https://machinelearningmastery.com/machine-learning-checklist/)
+- [Machine Learning Project Review Checklist](https://agilescientific.com/blog/2019/4/9/machine-learning-project-review-checklist)
