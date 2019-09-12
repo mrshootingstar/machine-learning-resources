@@ -1,3 +1,6 @@
+# originally by: Nick Becker
+# https://beckernick.github.io/_posts/2016-11-05-logistic-regression-from-scratch/
+
 import numpy as np
 import matplotlib.pyplot as plt
 
