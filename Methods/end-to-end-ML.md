@@ -1,0 +1,5 @@
+- What is the business goal?
+    - How is that turned into an ML problem? Supervised/Unsupervised/RL? Classification/Regression/etc? Batch Learning/Online Learning?
+    - Which models are suitable?
+    - Which evaluation metrics are suitable?
+    - Is there a current solution that can be used as the benchmakr?

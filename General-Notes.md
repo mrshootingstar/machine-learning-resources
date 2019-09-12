@@ -11,7 +11,10 @@
 - Hyperparameter tuning based on a sample of the data is a bad [There are people who disagree] idea because hyper parameters are depended on the size of the data. Once the hyper parameters are optimized, train a new model using the whole dataset you have to use for unforeseen data points. Some poeple say you can use a algorithm that supports multifidelity evaluations to find an estimate of your optimized hyperparameter from a subset of the data.
 
 - Multiple vs Multivariate Regression: Multiple has more than one feature - Multivariate predicts more than one target variable
-- if your histograms are tail-heavy it may make it hard for some ML algorithms. You may need to transfer the data
+- if your histograms are tail-heavy it may make it hard for some ML algorithms. You may need to transfer the data (e.g., by computing their logarithm).
+- Sample feature engineering:
+  1. number of bedrooms not useful. number of bedrooms/total number of rooms is useful
+
 - Train/Validation/Test
     - Train: Used for training the models with various hyper parameters
     - Validation: select the model that performs best on the validation set
@@ -32,3 +35,8 @@
 - Generalization error is estimated by evaluating your model on the test set
 - How to detect **data mismatch**? You train your camera app to detect flowers on flower images found on the web that are not representative of the flower pictures users will take using the app. Andrew Ng suggest having yet another data split called `train-dev` set that is used only to see if model has overfitted the training set. If the performance on this set is good, we move on to evaluation on the validation set.
 - What happens if you use the test set to select hyperparameters? You are twitching your algorithm to work on the same test set and you end up overfitting your model.
+
+- Checklist for ML projects
+- for ordered categorical data you can use OrdinalEncoder `from sklearn.preprocessing import OrdinalEncoder`
+- in general for categorical data use onehot encoder `from sklearn.preprocessing import OneHotEncoder`
+- If your categorical data has a lot of labels, you need to downsize it or replace it with a more meaningful feature (ocean_proximity -> distance form ocean)

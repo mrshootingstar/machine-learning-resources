@@ -18,6 +18,8 @@
 - Deep Learning in a nutshell [[part 1](https://devblogs.nvidia.com/deep-learning-nutshell-core-concepts/)][[part 2](https://devblogs.nvidia.com/deep-learning-nutshell-history-training/)][[part 3](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-sequence-learning/)][[part 4](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-reinforcement-learning/)]
 - [Neural Machine Translation (seq2seq) Tutorial](https://github.com/tensorflow/nmt#background-on-the-attention-mechanism)
 - [Non negative matrix factorization](http://www.billconnelly.net/?p=534)
+
+- [design patters in scikit learn](https://arxiv.org/abs/1309.0238)
 - Attention:
     - [A Beginner's Guide to Attention Mechanisms and Memory Networks](https://skymind.ai/wiki/attention-mechanism-memory-network)
     - [Google AI Blog: Transformer: A Novel Neural Network Architecture for Language Understanding ](https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html)
