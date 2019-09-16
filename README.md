@@ -96,6 +96,7 @@
 - [Data Visualization](http://shancarter.github.io/ucb-dataviz-fall-2013/)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
+- [Pytorch Implementation](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
 
 - [lucid](https://github.com/tensorflow/lucid)
     - Lucid is a collection of infrastructure and tools for research in neural network interpretability.
