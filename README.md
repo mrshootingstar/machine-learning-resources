@@ -94,6 +94,8 @@
 - [6.S191: Introduction to Deep Learning](http://introtodeeplearning.com/)
 - [Geoffrey Hinton's Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks/home/welcome)
 - [Data Visualization](http://shancarter.github.io/ucb-dataviz-fall-2013/)
+- [Modern Regression - CUM](https://www.stat.cmu.edu/~cshalizi/mreg/15/)
+    - [Lecture13 Linear Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/13/lecture-13.pdf)
 # Repos
 - [Natural Language Processing Best Practices & Examples ](https://github.com/microsoft/nlp)
 - [Pytorch Implementation](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
@@ -128,3 +130,7 @@
 # Checklist
 - [How to Use a Machine Learning Checklist to Get Accurate Predictions, Reliably](https://machinelearningmastery.com/machine-learning-checklist/)
 - [Machine Learning Project Review Checklist](https://agilescientific.com/blog/2019/4/9/machine-learning-project-review-checklist)
+
+
+# Lecture Notes
+- [Regression](https://www.cs.indiana.edu/~predrag/classes/2016fallb365x/ols.pdf)
